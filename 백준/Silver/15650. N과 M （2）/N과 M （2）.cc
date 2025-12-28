@@ -13,7 +13,7 @@ bool visited[9];
         {
             cout << arr[i] << " ";
         }
-        cout << "\n";
+        cout << endl;
         return;
     }
 
