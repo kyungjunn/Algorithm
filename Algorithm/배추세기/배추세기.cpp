@@ -45,7 +45,7 @@ int main()
 	{
 		for (int j = 0; j < M; ++j)
 		{
-			Farm[N][M] = 0;
+			Farm[i][j] = 0;
 		}
 	}
 
