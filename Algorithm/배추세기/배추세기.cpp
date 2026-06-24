@@ -74,7 +74,7 @@ int main()
 		}
 	}
 
-	cout << "Áö··ÀÌ : " << Result << endl;
+	cout << Result << endl;
 
 	return 0;
 }
