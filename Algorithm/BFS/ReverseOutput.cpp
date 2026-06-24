@@ -27,9 +27,8 @@ void PrintShortestPath(int Start, int Dest)
 		return;
 	}
 
-	// 0->3->4->5
+	// 5->4->3->0
 	vector<int> Temp;
-
 	int Current = Dest;
 
 	while (Current != Start)
@@ -40,6 +39,7 @@ void PrintShortestPath(int Start, int Dest)
 	Temp.push_back(Start);
 
 
+	// 0->3->4->5
 	// ¿ª¼ø
 	for (int i = Temp.size() - 1; i >= 0; --i)
 	{
